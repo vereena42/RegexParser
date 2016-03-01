@@ -1,0 +1,15 @@
+This is a code for parsing regular expressions (regexes).
+
+Any lowercase letter is an regex.
+0 and 1 are regexes.
+If a and b are regexes, then a+b, ab, a* and (a) are also regexes.
+Any number of spaces can appear between two symbols.
+Any other string is not a regex.
+
+Code checks whether a given string is a regex and if it is, it simplifize it.
+For example (( 0***a 1(b)+0ab*) )* will be changed to (ab)*.
+
+Input should be in format:
+Number of tests
+Number of strings in text
+Strings (every one in seperate line).
